@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sedan+SC&display=swap');
+
+@font-face {
+    font-family: ZT Talk;
+    src: url(fontes/ZTTalk-Bold.ttf) format(truetype);
+}
+
 :root {
     --cor0:#035AA6 ;
     --cor1:#023059 ;
     --cor2:#05AFF2 ;
     --cor3:#403F3F ;
 
-    
+    --fonte01:"Bebas Neue", sans-serif;
+    --fonte02: "ZT Talk" , sans-serif;
 }
 
 body{
@@ -62,6 +70,9 @@ a:hover  {
     text-align: center;
 }
 
+mark {
+    background-color: var(--cor2);
+}
 main {
     background-color: white;
     min-width: 414px;
@@ -77,20 +88,35 @@ main img {
 
 section#curiosidade > h1 {
    text-align: center;
-   font-size: 40px;
-   margin: 15px
+   font-size: 45px;
+   margin-left: -15px;
+   margin-right: -15px;
+   margin-top: 0px;
+   margin-bottom: 10px;
+   font-family: var(--fonte01);
+   background-image: linear-gradient(to right,transparent,#035AA6, #05AFF2 , transparent );
+
 }
 
 section#curiosidade > p {
     text-align: justify;
+    font-family:var(--fonte02)
 }
 
 section#profissional > h2 {
     text-align: center;
+    margin-left: -15px;
+   margin-right: -15px;
+   margin-top: 0px;
+   margin-bottom: 10px;
+   font-family: var(--fonte01);
+   background-image: linear-gradient(to right,transparent,#035AA6, #05AFF2 , transparent );
+
 }
 
 section#profissional > p {
     text-align: justify;
+    font-family:var(--fonte02)
 }
 
 section#contato > h1 {
