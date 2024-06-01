@@ -24,7 +24,7 @@ header img {
     max-width: 200px;
     width: auto;
     height: 176px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 nav { 
@@ -52,9 +52,19 @@ a:hover  {
     text-decoration: underline;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}
+
 main {
     background-color: white;
-    min-width: 300px;
+    min-width: 414px;
     max-width: 1000px ;
     padding: 20px ;
     margin: auto;
@@ -88,6 +98,8 @@ section#contato > h1 {
     text-align: center;
     color: #00E676;
     text-shadow: 1px 0px 0px rgb(0, 0, 0);
+    margin-top: 0%;
+    margin-bottom: 15px;
 } 
 
 section#contato > h2 {
@@ -95,6 +107,8 @@ section#contato > h2 {
     text-align: center;
     text-shadow: 1px 0px 0px rgb(0, 0, 0);
     color: #CD2D86;
+    margin-top: 0%;
+    margin-bottom: 15px;
 }
 
 footer {
