@@ -35,15 +35,7 @@ header img {
     width: auto;
 }
 
-header p#slogan1 {
-    font-family: var(--fonte01);
-    color: rgba(255, 255, 255, 0.912);
-    position: absolute;
-    right: 0;
-    padding-right: 30px;
-    font-size: xx-large;
-    text-shadow: 2px 0px 0px black;
-}
+
 
 nav { 
     padding: 10px;
