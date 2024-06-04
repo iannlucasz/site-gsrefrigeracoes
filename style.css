@@ -22,7 +22,7 @@ body{
 header {
     background-color: var(--cor3);
     margin-top: -9px;
-    height: 132px;
+    height: 144px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,9 +30,19 @@ header {
 
 header img {
     max-width: 200px;
+    height: 206px;
+    padding-bottom: 40px;
     width: auto;
-    height: 176px;
-    padding-bottom: 30px;
+}
+
+header p#slogan1 {
+    font-family: var(--fonte01);
+    color: rgba(255, 255, 255, 0.912);
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+    font-size: xx-large;
+    text-shadow: 2px 0px 0px black;
 }
 
 nav { 
@@ -83,7 +93,7 @@ main {
 }
 
 main img {
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -141,7 +151,7 @@ section#contato > h2 {
 
 footer {
     background-color: var(--cor3);
-    margin-top: -9px;
+    margin-bottom: -9px;
     height: 132px;
 }
 
