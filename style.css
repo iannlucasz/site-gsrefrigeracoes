@@ -44,6 +44,8 @@ nav {
     margin-left: 0px;
     margin-right: 0px;
     min-width: 370px;
+    width: 370px;
+    box-shadow: 0px 0px 4px black;
 }
 
 nav > a {
