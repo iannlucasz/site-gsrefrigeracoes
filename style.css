@@ -38,25 +38,24 @@ header img {
 
 
 nav { 
-    padding: 10px;
+    padding: 5px;
     background-color: var(--cor0);
-    margin-left: 0px;
-    margin-right: 0px;
     min-width: 370px;
     box-shadow: 0px 0px 4px black;
 }
 
 nav > a {
     text-decoration: none;
-    margin-right: 55px;
+    margin-right: 20px;
     color: white;
     transition-duration: .5s;
-    font-size: medium;
+    font-weight: bold;
 }
 
 nav > a:hover  {
     text-decoration: underline;
     background-color: var(--cor2);
+    color:var(--cor1);
 }
 
 
