@@ -209,13 +209,21 @@ footer {
     min-width: 370px;
 }
 
-footer > p {
+footer  p#autoral {
     color: white;
     padding-top: 8px;
     margin-left: 7px;
     text-align: justify;
     padding-right: 7px;
     font-size: small;
+}
+
+footer p#pagamento {
+    color: var(--cor2);
+    padding-top: 8px;
+    margin-left: 7px ;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serifal;
 }
 
 ol {
